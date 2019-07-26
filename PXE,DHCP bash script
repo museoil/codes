@@ -63,8 +63,8 @@ default-lease-time 600;
 max-lease-time 7200;
 
 
-#IP of PXE Server
-next-server 192.168.45.150;
+#IP of TFTPBoot Server
+next-server 192.168.45.151;
 filename "pxelinux.0";
 }
 EOF
